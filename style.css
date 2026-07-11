@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+/* for navebar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.common-display{
+    width: 1320px;
+    margin: auto;
+    padding: 20px;
+
+}
+.nav-common ul{
+    display: flex;
+    list-style: none;  
+}
+.nav-common ul li img{
+    margin: 6px 0;
+    margin-right: 8px;
+}
+
+.nav-middle ul li{
+    margin: 12px;
+    padding: 3px;
+    text-align: center;
+}
+.common-button{
+    padding: 4px;
+    width: 180px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #1D4ED8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 18px;
+    
+}
