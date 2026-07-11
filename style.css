@@ -29,10 +29,11 @@ nav{
     padding: 3px;
     text-align: center;
 }
+/* common button */
 .common-button{
     padding: 4px;
     width: 180px;
-    height: 45px;
+    height: 50px;
     border-radius: 10px;
     background-color: #1D4ED8;
     color: white;
@@ -40,6 +41,28 @@ nav{
     justify-content: center;
     align-items: center;
     font-weight: 700;
-    font-size: 18px;
-    
+    font-size: 18px;  
+}
+/* for banner section */
+.banner{
+    background-image: url("./assets/banner.jpg");
+    height: 786px;
+    width: 100vw;
+    color: white;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.banner-button{
+    display: flex;
+    justify-content: center;
+}
+.banner h1{
+    font-size: 80px;
+    font-style: italic;
+}
+.banner p{
+    font-size: 22px;
+    font-weight: 400;
 }
