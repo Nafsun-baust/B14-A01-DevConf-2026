@@ -53,32 +53,44 @@ nav {
 /* for banner section */
 .banner {
     background-image: url("./assets/banner.jpg");
-    height: 786px;
-    width: 100vw;
-    color: white;
-    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    overlay: auto;
+    align-items: center;
+    justify-content: center;
+
+
+    color: white;
+    text-align: center;
+
 }
 
 .banner-button {
-    display: flex;
-    justify-content: center;
+   margin-top: 50px;
 }
+
+/* .banner-p {
+    justify-content: center;
+    text-align: center;
+} */
 
 .banner h1 {
     font-size: 80px;
-    font-style: italic;
 }
-
 .banner p {
     font-size: 22px;
     font-weight: 400;
+    max-width: 800px;
+    margin: 30px;
+
 }
 
-/* Meet the speakers */
+/* Meet the speakers rechek */
 .meet-the-speaker {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -115,14 +127,14 @@ h3 {
 .secure-content {
     text-align: center;
     margin: 50px;
-    
+
 }
 
 .secure-content h1 {
     color: #0D1B2A;
-    font-size: 48;
+    font-size: 48px;
     font-weight: 700;
-    margin-bottom:10px ;
+    margin-bottom: 10px;
 }
 
 .secure-content p {
@@ -163,6 +175,14 @@ h3 {
     color: #93C5FD;
     font-size: 18px;
     font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.secure-card-content span {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 4px;
+
 }
 
 .secure-card-content {
@@ -171,10 +191,11 @@ h3 {
 
 .secure-card-content h1 {
     padding: 4px 0;
-    font-size: 44;
+    font-size: 44px;
 }
-.secure-card-content p{
-    font-size: 13;
+
+.secure-card-content p {
+    font-size: 13px;
 }
 
 .standard-button,
@@ -183,24 +204,129 @@ h3 {
     text-align: center;
     margin: 5px;
 }
-.secure-button{
-    padding: 12px 120px;
+
+.secure-button {
+    width: 300px;
+    padding: 14px;
     border-radius: 10px;
-     margin-top: 20px;
+    margin-top: 20px;
 }
-.standard-button button{
+
+.standard-button button {
     color: #2563EB;
-    border:1px solid #2563EB;
+    border: 1px solid #2563EB;
     font-size: 16px;
     /* margin-top: 8px; */
 }
-.pro-button button{
+
+.pro-button button {
     color: white;
     background-color: #1D4ED8;
-    
+
 }
-.team-button button{
+
+.team-button button {
     color: #333333;
     border-color: black;
 
 }
+
+/* for footer */
+footer {
+    background-color: #0D1B2A;
+}
+
+.upper-footer,
+.lower-footer {
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.upper-footer {
+    margin: 10px 100px;
+}
+
+.lower-footer {
+    margin: 0px 20px;
+}
+
+.lower-footer ul {
+    list-style: none;
+    display: flex;
+
+}
+
+.lower-footer ul li {
+    padding: 5px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #d1d7dd;
+    margin: 20px 0px;
+}
+
+
+/* Sponsors Section */
+
+.sponsors{
+    padding:80px 10%;
+    background:#ffffff;
+    text-align:center;
+}
+
+.sponsors h2{
+    font-size:38px;
+    color:#0d47a1;
+    margin-bottom:15px;
+}
+
+.subtitle{
+    color:#666;
+    max-width:650px;
+    margin:0 auto 50px;
+    line-height:1.6;
+}
+
+.sponsors-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.sponsor-card{
+    background:#fff;
+    padding:35px 20px;
+    border-radius:15px;
+    border:1px solid #dbe8ff;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.sponsor-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 30px rgba(0,85,255,.15);
+}
+
+.sponsor-card img{
+    width:90px;
+    height:90px;
+    object-fit:contain;
+    margin-bottom:20px;
+}
+
+.sponsor-card h3{
+    color:#1565c0;
+    font-size:20px;
+}
+
+.thanks{
+    margin-top:50px;
+    font-size:18px;
+    color:#444;
+    font-weight:500;
+}
+

@@ -1,0 +1,1 @@
+Create a modern "Sponsors" section for a DevConf 2026 website using only HTML and CSS. Include a heading, a short subtitle, and 6 sponsor cards in a 3×2 grid. Each card should have a sponsor logo and name. Add a thank you message at the bottom. Match the white and blue design of the website. Only create this section.
