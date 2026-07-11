@@ -1,36 +1,41 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Inter", sans-serif;
 }
+
 /* for navebar */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
-    
+
 }
-.common-display{
+
+.common-display {
     width: 1320px;
     margin: auto;
     padding: 20px;
 
 }
-.nav-common ul{
+
+.nav-common ul {
     display: flex;
-    list-style: none;  
+    list-style: none;
 }
-.nav-common ul li img{
+
+.nav-common ul li img {
     margin: 6px 0;
     margin-right: 8px;
 }
 
-.nav-middle ul li{
+.nav-middle ul li {
     margin: 12px;
     padding: 3px;
     text-align: center;
 }
+
 /* common button */
-.common-button{
+.common-button {
     padding: 4px;
     width: 180px;
     height: 50px;
@@ -41,56 +46,161 @@ nav{
     justify-content: center;
     align-items: center;
     font-weight: 700;
-    font-size: 18px;  
+    font-size: 18px;
+    border-style: none;
 }
+
 /* for banner section */
-.banner{
+.banner {
     background-image: url("./assets/banner.jpg");
     height: 786px;
     width: 100vw;
     color: white;
-    text-align: center; 
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     overlay: auto;
 }
-.banner-button{
+
+.banner-button {
     display: flex;
     justify-content: center;
 }
-.banner h1{
+
+.banner h1 {
     font-size: 80px;
     font-style: italic;
 }
-.banner p{
+
+.banner p {
     font-size: 22px;
     font-weight: 400;
 }
-    /* Meet the speakers */
-.meet-the-speaker{
-    /* text-align: center; */
+
+/* Meet the speakers */
+.meet-the-speaker {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
-.meet-box p, h3{
+
+.meet-box p,
+h3 {
     margin: 5px;
-    
+
 }
-.meet-box-upper-p{
+
+.meet-box-upper-p {
     color: #2563EB;
 }
-.meet-box h3{
+
+.meet-box h3 {
     color: #0D1B2A;
 }
-.meet-box-lower-p{
+
+.meet-box-lower-p {
     color: #575757;
 }
 
-.meet h1{
+.meet h1 {
     display: flex;
     justify-content: center;
     margin: 50px 0;
     font-size: 56px;
+}
+
+/* Secure Your spot */
+
+.secure-content {
+    text-align: center;
+    margin: 50px;
+    
+}
+
+.secure-content h1 {
+    color: #0D1B2A;
+    font-size: 48;
+    font-weight: 700;
+    margin-bottom:10px ;
+}
+
+.secure-content p {
+    font-size: 16px;
+    color: #575757;
+}
+
+.secure-box {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.secure-card {
+    border: 1px solid #e5e7ebFF;
+    background: #ffffffFF;
+    padding: 32px;
+
+}
+
+.secure-card ul li {
+    margin: 12px;
+    color: #333333;
+    font-size: 14px;
+}
+
+.pro {
+    background-color: #0D1B2A;
+    color: white;
+}
+
+.pro ul li {
+    color: white;
+}
+
+.pro span {
+    color: #93C5FD;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.secure-card-content {
+    margin: 40px 0;
+}
+
+.secure-card-content h1 {
+    padding: 4px 0;
+    font-size: 44;
+}
+.secure-card-content p{
+    font-size: 13;
+}
+
+.standard-button,
+.pro-button,
+.team-button {
+    text-align: center;
+    margin: 5px;
+}
+.secure-button{
+    padding: 12px 120px;
+    border-radius: 10px;
+     margin-top: 20px;
+}
+.standard-button button{
+    color: #2563EB;
+    border:1px solid #2563EB;
+    font-size: 16px;
+    /* margin-top: 8px; */
+}
+.pro-button button{
+    color: white;
+    background-color: #1D4ED8;
+    
+}
+.team-button button{
+    color: #333333;
+    border-color: black;
+
 }
