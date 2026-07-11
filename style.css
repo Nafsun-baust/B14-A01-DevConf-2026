@@ -53,6 +53,7 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    overlay: auto;
 }
 .banner-button{
     display: flex;
@@ -65,4 +66,31 @@ nav{
 .banner p{
     font-size: 22px;
     font-weight: 400;
+}
+    /* Meet the speakers */
+.meet-the-speaker{
+    /* text-align: center; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+.meet-box p, h3{
+    margin: 5px;
+    
+}
+.meet-box-upper-p{
+    color: #2563EB;
+}
+.meet-box h3{
+    color: #0D1B2A;
+}
+.meet-box-lower-p{
+    color: #575757;
+}
+
+.meet h1{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    font-size: 56px;
 }
